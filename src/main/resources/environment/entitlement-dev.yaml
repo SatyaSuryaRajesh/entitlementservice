@@ -1,0 +1,24 @@
+https:
+ host: "localhost"
+ port: "8083"
+ basepath: "/api/*"
+ response.timeout: "60000"
+
+http:
+ host: "localhost"
+ port: "8082"
+ basepath: "/api/*"
+ response.timeout: "60000"
+ 
+tls:
+ key.password: "test123"
+ password: "test123"
+
+sys.entitlementdb:
+ host: "![DAK1jV5oJx+G8VovmRBYnw==]"
+ port: "8081"
+ protocol: "HTTP"
+ basepath: "/api"
+ path: "/entitlement-db"
+ response.timeout: "60000"
+ 

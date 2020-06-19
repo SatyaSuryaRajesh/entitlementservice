@@ -1,0 +1,7 @@
+   {
+   	"role": "owner",
+   	"action": [{
+   		"api_read": "allow",
+    	"api_update": "allow"
+   	}]
+   }

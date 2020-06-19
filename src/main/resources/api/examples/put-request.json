@@ -1,0 +1,9 @@
+   {
+   	"role": "member",
+   	"action": [{
+   		"api_read": "allow",
+   		"api_delete": "denied",
+   		"api_upload": "allow",
+   		"api_update": "allow"
+   	}]
+   }
